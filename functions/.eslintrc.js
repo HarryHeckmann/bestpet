@@ -26,7 +26,8 @@ module.exports = {
   ],
   rules: {
     "quotes": "off",
-    "import/no-unresolved": 0,
-    "semi": "off"
-  },
+    "import/no-unresolved": "off",
+    "semi": "off",
+    "comma-dangle": "off"
+  }
 };
