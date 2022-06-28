@@ -28,6 +28,7 @@ module.exports = {
     "quotes": "off",
     "import/no-unresolved": "off",
     "semi": "off",
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "@typescript-eslint/no-var-requires": "off"
   }
 };
