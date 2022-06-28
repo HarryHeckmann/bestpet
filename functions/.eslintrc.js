@@ -25,7 +25,10 @@ module.exports = {
     "import",
   ],
   rules: {
-    "quotes": ["error", "double"],
-    "import/no-unresolved": 0,
-  },
+    "quotes": "off",
+    "import/no-unresolved": "off",
+    "semi": "off",
+    "comma-dangle": "off",
+    "@typescript-eslint/no-var-requires": "off"
+  }
 };
