@@ -25,7 +25,8 @@ module.exports = {
     "import",
   ],
   rules: {
+    "quotes": "off",
     "import/no-unresolved": 0,
-    "semi": [ "error", "never" ]
+    "semi": "off"
   },
 };
